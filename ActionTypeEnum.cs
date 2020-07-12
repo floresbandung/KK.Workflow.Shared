@@ -3,8 +3,10 @@ namespace Workflow.Shared
 {
     public enum ActionTypeEnum
     {
-        View = 0,
-        Approval = 1,
-        Delete = 2
+        New = 0,
+        View = 1,
+        Approval = 2,
+        Delete = 99,
+        
     }
 }
